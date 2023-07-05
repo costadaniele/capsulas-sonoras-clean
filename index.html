@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!--CSS-->
+    <link rel="stylesheet" type="text/css" href="./css/main.css">
+
+    <!--p5.js-->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.6.0/p5.min.js"
+        integrity="sha512-3RlxD1bW34eFKPwj9gUXEWtdSMC59QqIqHnD8O/NoTwSJhgxRizdcFVQhUMFyTp5RwLTDL0Lbcqtl8b7bFAzog=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+    <script src="./lib/p5.min.js"></script>
+
+    <!-- p5.js / sound -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.6.0/addons/p5.sound.min.js"
+        integrity="sha512-WzkwpdWEMAY/W8WvP9KS2/VI6zkgejR4/KTxTl4qHx0utqeyVE0JY+S1DlMuxDChC7x0oXtk/ESji6a0lP/Tdg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+    <script src="./lib/addons/p5.sound.min.js"></script>
+
+    <!--Js-->
+    <script src="./js/index.js"></script>
+
+    <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-ZVY8BWMSE3"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag() { dataLayer.push(arguments); }
+        gtag('js', new Date());
+
+        gtag('config', 'G-ZVY8BWMSE3');
+    </script>
+
+    <!--Favicon-->
+    <link rel="shortcut icon" href="./LOGOS/icone.png">
+    <link rel="manifest" href="/manifest.json">
+    <meta name="msapplication-TileColor" content="#ffffff">
+    <meta name="msapplication-TileImage" content="/ms-icon-144x144.png">
+    <meta name="theme-color" content="#ffffff">
+    <title>Cápsulas Sonoras</title>
+</head>
+
+<body class="is-preload">
+    <div id="wrapper">
+        <div id="bg"></div>
+        <div id="overlay"></div>
+        <div id="main">
+
+            <!-- Header -->
+            <header id="header">
+                <h1>Cápsulas Sonoras</h1>
+                <p> <a href="https://sonatorio.org/">SONatório</a> </p>
+                <!--&nbsp;-->
+                <nav>
+                    <ul>
+                        <li><a href="capsula6/31R3.html">
+                                <div class="botao-play"> ▷ </div>
+                            </a></li>
+                    </ul>
+                </nav>
+                <div class="text">
+                    <div class="text-pt">
+                        <p>
+                            Galáxia Cata-Vento, Sistema Estelar Anã Fogo Vermelho, Planeta Íris, Casulo 8SD9.</p>
+                        <p> Ano 34 da Era Espiralar. </p>
+                        <p>
+                            Cápsulas Sonoras oriundas da Galáxia Via Láctea, Sistema Solar, Planeta Terra, são
+                            encontradas em uma antiga sonda espacial.
+                        </p>
+                    </div>
+                    <div class="text-en">
+                        <p>
+                            Pinwheel Galaxy, Red Fire Dwarf Star System, Planet Iris, 8SD9 Cocoon.
+                        </p>
+                        <p> Year 34 of the Spiral Age. </p>
+                        <p>
+                            Sound Capsules from the Milky Way Galaxy, Solar System, Planet Earth, are found in an
+                            ancient space probe.
+                        </p>
+                    </div>
+                </div>
+            </header>
+
+            <!-- Footer -->
+            <footer id="footer">
+                <p> <a href="./html/producao.html">Créditos | Credits</a></p>
+                <p> <a rel="license" href="https://creativecommons.org/licenses/by-nc-nd/4.0/"><img
+                            alt="Licença Creative Commons" style="border-width:0"
+                            src="https://i.creativecommons.org/l/by-nc-nd/4.0/88x31.png"></a> </p>
+                <p> <a href="https://sonatorio.org/">SONatório, 2021 </a> </p>
+            </footer>
+        </div>
+    </div>
+
+    <script>
+        window.onload = function () { document.body.classList.remove('is-preload'); }
+        window.ontouchmove = function () { return false; }
+        window.onorientationchange = function () { document.body.scrollTop = 0; }
+    </script>
+</body>
+
+</html>

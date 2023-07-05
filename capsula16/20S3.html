@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!--p5.js-->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.6.0/p5.min.js"
+        integrity="sha512-3RlxD1bW34eFKPwj9gUXEWtdSMC59QqIqHnD8O/NoTwSJhgxRizdcFVQhUMFyTp5RwLTDL0Lbcqtl8b7bFAzog=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+    <script src="./lib/p5.min.js"></script>
+
+    <!-- p5.js / sound -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.6.0/addons/p5.sound.min.js"
+        integrity="sha512-WzkwpdWEMAY/W8WvP9KS2/VI6zkgejR4/KTxTl4qHx0utqeyVE0JY+S1DlMuxDChC7x0oXtk/ESji6a0lP/Tdg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+    <script src="./lib/addons/p5.sound.min.js"></script>
+
+    <!--CSS-->
+    <link rel="stylesheet" type="text/css" href="../css_capsulas/capsula.css">
+    <link rel="stylesheet" type="text/css" href="../css_capsulas/mobile.css">
+
+    <!--Js-->
+    <script src="capsula16.js"></script>
+    <script src="../js_capsulas/capsula_var.js"></script>
+
+    <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-ZVY8BWMSE3"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag() { dataLayer.push(arguments); }
+        gtag('js', new Date());
+
+        gtag('config', 'G-ZVY8BWMSE3');
+    </script>
+
+    <!--Favicon-->
+    <link rel="shortcut icon" href="../LOGOS/icone.png">
+    <link rel="manifest" href="/manifest.json">
+    <meta name="msapplication-TileColor" content="#ffffff">
+    <meta name="msapplication-TileImage" content="/ms-icon-144x144.png">
+    <meta name="theme-color" content="#ffffff">
+    <title>Cápsulas Sonoras</title>
+</head>
+
+<body class="is-preload">
+    <div id="wrapper">
+        <div id="bg"></div>
+        <div id="overlay"></div>
+        <div id="main">
+
+            <!-- Header -->
+            <header id="header">
+                <nav>
+                    <br>
+                    <br>
+                    <ul>
+                        <li><a href="../index.html">
+                                <div class="menu-dest">
+                                    &lt; </div>
+                            </a></li>
+                        <li><a href="/capsula1/71E5.html">71E5</a></li>
+                        <li><a href="/capsula2/11U4.html">11U4</a></li>
+                        <li><a href="/capsula3/16Z3.html">16Z3</a></li>
+                        <li><a href="/capsula4/29C1.html">29C1</a></li>
+                        <li><a href="/capsula5/38U4.html">38U4</a></li>
+                        <li><a href="/capsula6/31R3.html">31R3</a></li>
+                        <li><a href="/capsula7/35N2.html">35N2</a></li>
+                        <li><a href="/capsula8/25R3.html">25R3</a></li>
+                        <li><a href="/capsula9/20E9.html">20E9</a></li>
+                        <li><a href="/capsula10/16A1.html">16A1</a></li>
+                        <li><a href="/capsula11/14A5.html">14A5</a></li>
+                        <li><a href="/capsula12/73A0.html">73A0</a></li>
+                        <li><a href="/capsula13/74G3.html">74G3</a></li>
+                        <li><a href="/capsula14/61O3.html">61O3</a></li>
+                        <li><a href="/capsula15/45M6.html">45M6</a></li>
+                        <li><a href="/capsula16/20S3.html">20S3</a></li>
+                        <li><a href="/capsula17/15D9.html">15D9</a></li>
+                        <li><a href="/capsula18/73O0.html">73O0</a></li>
+                        <li><a href="/capsula19/65I4.html">65I4</a></li>
+                        <li><a href="/capsula20/31P5.html">31P5</a></li>
+                        <li><a href="/capsula21/36U3.html">36U3</a></li>
+                        <li><a href="/capsula22/13O9.html">13O9</a></li>
+                        <li><a href="/capsula23/45S7.html">45S7</a></li>
+                        <li><a href="/capsula24/25U9.html">25U9</a></li>
+                        <li><a href="../html/producao.html">
+                                <div class="menu-dest"> &gt; </div>
+                            </a></li>
+                    </ul>
+                </nav>
+                <div class="text-h6">
+                    <h6>pressione o botão por 3 seg | <br> press the button for 3 seconds to play</h6>
+                </div>
+            </header>
+        </div>
+    </div>
+    <script>
+        window.onload = function () { document.body.classList.remove('is-preload'); }
+        window.ontouchmove = function () { return false; }
+        window.onorientationchange = function () { document.body.scrollTop = 0; }
+    </script>
+</body>
+
+</html>

@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!--p5.js-->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.6.0/p5.min.js"
+        integrity="sha512-3RlxD1bW34eFKPwj9gUXEWtdSMC59QqIqHnD8O/NoTwSJhgxRizdcFVQhUMFyTp5RwLTDL0Lbcqtl8b7bFAzog=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+    <script src="./lib/p5.min.js"></script>
+
+    <!-- p5.js / sound -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.6.0/addons/p5.sound.min.js"
+        integrity="sha512-WzkwpdWEMAY/W8WvP9KS2/VI6zkgejR4/KTxTl4qHx0utqeyVE0JY+S1DlMuxDChC7x0oXtk/ESji6a0lP/Tdg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+    <script src="./lib/addons/p5.sound.min.js"></script>
+
+    <!--CSS-->
+    <link rel="stylesheet" type="text/css" href="../css_creditos/creditos.css">
+
+    <!--Js-->
+    <script src="../js/index.js"></script>
+
+    <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-ZVY8BWMSE3"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag() { dataLayer.push(arguments); }
+        gtag('js', new Date());
+
+        gtag('config', 'G-ZVY8BWMSE3');
+    </script>
+
+    <!--Favicon-->
+    <link rel="shortcut icon" href="../LOGOS/icone.png">
+    <link rel="manifest" href="/manifest.json">
+    <meta name="msapplication-TileColor" content="#ffffff">
+    <meta name="msapplication-TileImage" content="/ms-icon-144x144.png">
+    <meta name="theme-color" content="#ffffff">
+    <title>Cápsulas Sonoras</title>
+</head>
+
+<body class="is-preload">
+    <div id="wrapper">
+        <div id="bg"></div>
+        <div id="overlay"></div>
+        <div id="main">
+
+            <!-- Header -->
+            <header id="header">
+                <div class="creditos">
+                    <h1>Cápsulas Sonoras foi criada por SONatório | Sound Capsules were created by
+                        SONatório </h1>
+                    <nav>
+                        <ul>
+                            <li><a href="../capsula6/31R3.html">
+                                    <div class="botao-play"> ▷ </div>
+                                </a></li>
+                        </ul>
+                    </nav>
+
+                    <div class="text">
+                        <div class="text-pt">
+                            <p><span class="destaque"> SONatório é | SONatório is</span></p>
+                            <p>Amaranttes - Daniele Costa - Girlan Tavares - Joanne Labixa - Joseh Brito - Laise
+                                Mendes - Lina Cirino -
+                                Marina Mapurunga - Stephanie Sobral (tepha) - Victor Brasileiro</p>
+                            <p><span class="destaque">Artistas sonores | Sound artists</span></p>
+                            <p> Amaranttes - Girlan Tavares - Joanne Labixa - Joseh Brito - Laise Mendes - Lina Cirino -
+                                Marina
+                                Mapurunga - Stephanie Sobral (tepha) - Victor Brasileiro</p>
+                        </div>
+
+                        <div class="text-pt">
+                            <p><span class="destaque">Masterização | Mastering</span></p>
+
+                            <p> Marina Mapurunga</p>
+
+                            <p><span class="destaque">Desenvolvimento do ambiente virtual | Website Development</span>
+                            </p>
+                            <p> Daniele Costa</p>
+                            <p><span class="destaque">Artista visual do website| Website visual artist</span></p>
+                            <p>Daniele Costa</p>
+                            <p><span class="destaque">Arte gráfica da foto de divulgação do SONatório | Graphic Art of
+                                    SONatório
+                                    photo</span></p>
+                            <p>Laise Mendes</p>
+                            <p><span class="destaque">Coordenação | Coordinator </span></p>
+                            <p> Marina Mapurunga</p>
+                        </div>
+                    </div>
+                </div>
+            </header>
+        </div>
+    </div>
+
+    <script>
+        window.onload = function () { document.body.classList.remove('is-preload'); }
+        window.ontouchmove = function () { return false; }
+        window.onorientationchange = function () { document.body.scrollTop = 0; }
+    </script>
+</body>
+
+</html>
